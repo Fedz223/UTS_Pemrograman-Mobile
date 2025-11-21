@@ -1,3 +1,8 @@
+Nama : Federix Aryansyah
+NIM : 23552011387
+Kelas : TIF RP 23 CNS A
+
+
 1. - Cubit adalah pendekatan yang lebih sederhana. Kamu langsung membuat method untuk mengubah state. Misalnya cubit.increment() akan langsung menghasilkan state baru. Cubit lebih ringkas dan mudah dipahami, cocok untuk aplikasi sederhana.
    - Bloc menggunakan pendekatan event → state. Artinya, kamu membuat event terlebih dahulu, lalu Bloc akan memproses event tersebut dan menghasilkan state baru. Contohnya: bloc.add(IncrementEvent()) → Bloc memproses → state baru diemit. Bloc lebih verbose, tetapi lebih terstruktur dan cocok untuk aplikasi kompleks yang banyak logika dan event.
 
